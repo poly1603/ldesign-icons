@@ -1,0 +1,24 @@
+/**
+ * LDesign Icons - React Styles
+ */
+
+.ld-icon {
+  display: inline-block;
+  line-height: 1;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.ld-icon--spin {
+  animation: ld-icon-spin 1s linear infinite;
+}
+
+@keyframes ld-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
