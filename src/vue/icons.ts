@@ -171,3 +171,8 @@ export const ChevronRightIcon = createVueIcon(
   'M9 18l6-6-6-6',
 )
 
+
+
+
+
+

@@ -78,3 +78,8 @@ export function createReactIcon(name: string, path: string | string[], viewBox =
   return Component
 }
 
+
+
+
+
+

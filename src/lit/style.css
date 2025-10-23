@@ -1,0 +1,16 @@
+/* Lit 图标样式 */
+/* 样式主要在 LdIconBase.styles 中定义 */
+
+/* 全局图标动画 */
+@keyframes ld-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+

@@ -10,6 +10,10 @@
     "jsx": "preserve",
     "jsxImportSource": "vue",
 
+    // Lit 支持
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+
     // 严格类型检查
     "strict": true,
     "noUnusedLocals": false,
@@ -48,4 +52,9 @@
     "coverage"
   ]
 }
+
+
+
+
+
 

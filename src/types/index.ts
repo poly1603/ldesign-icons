@@ -153,3 +153,8 @@ export interface IconRegistry {
   search(query: string): IconMetadata[]
 }
 
+
+
+
+
+

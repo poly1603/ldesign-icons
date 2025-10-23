@@ -1,0 +1,408 @@
+[
+  {
+    "name": "copy",
+    "componentName": "Copy",
+    "category": "editing",
+    "tags": [
+      "copy",
+      "editing",
+      "duplicate",
+      "clone",
+      "复制",
+      "拷贝",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "delete",
+    "componentName": "Delete",
+    "category": "editing",
+    "tags": [
+      "delete",
+      "editing",
+      "trash",
+      "remove",
+      "bin",
+      "删除",
+      "移除",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "edit",
+    "componentName": "Edit",
+    "category": "editing",
+    "tags": [
+      "edit",
+      "editing",
+      "pencil",
+      "write",
+      "modify",
+      "编辑",
+      "修改"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "save",
+    "componentName": "Save",
+    "category": "editing",
+    "tags": [
+      "save",
+      "editing",
+      "disk",
+      "storage",
+      "保存",
+      "存储",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "home",
+    "componentName": "Home",
+    "category": "general",
+    "tags": [
+      "home",
+      "general",
+      "house",
+      "main",
+      "index",
+      "首页",
+      "主页",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "menu",
+    "componentName": "Menu",
+    "category": "general",
+    "tags": [
+      "menu",
+      "general",
+      "hamburger",
+      "navigation",
+      "菜单",
+      "导航",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "search",
+    "componentName": "Search",
+    "category": "general",
+    "tags": [
+      "search",
+      "general",
+      "find",
+      "magnify",
+      "lookup",
+      "搜索",
+      "查找",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "settings",
+    "componentName": "Settings",
+    "category": "general",
+    "tags": [
+      "settings",
+      "general",
+      "config",
+      "preferences",
+      "options",
+      "设置",
+      "配置",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "user",
+    "componentName": "User",
+    "category": "general",
+    "tags": [
+      "user",
+      "general",
+      "account",
+      "profile",
+      "person",
+      "用户",
+      "账户",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "pause",
+    "componentName": "Pause",
+    "category": "media",
+    "tags": [
+      "pause",
+      "media",
+      "stop",
+      "break",
+      "暂停",
+      "停止",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "play",
+    "componentName": "Play",
+    "category": "media",
+    "tags": [
+      "play",
+      "media",
+      "start",
+      "run",
+      "播放",
+      "开始",
+      "媒体"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "chevron-down",
+    "componentName": "ChevronDown",
+    "category": "navigation",
+    "tags": [
+      "chevron down",
+      "navigation",
+      "arrow down",
+      "caret down",
+      "向下",
+      "下拉",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevron-left",
+    "componentName": "ChevronLeft",
+    "category": "navigation",
+    "tags": [
+      "chevron left",
+      "navigation",
+      "arrow left",
+      "caret left",
+      "向左",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevron-right",
+    "componentName": "ChevronRight",
+    "category": "navigation",
+    "tags": [
+      "chevron right",
+      "navigation",
+      "arrow right",
+      "caret right",
+      "向右",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevron-up",
+    "componentName": "ChevronUp",
+    "category": "navigation",
+    "tags": [
+      "chevron up",
+      "navigation",
+      "arrow up",
+      "caret up",
+      "向上",
+      "上拉",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "check",
+    "componentName": "Check",
+    "category": "status",
+    "tags": [
+      "check",
+      "status",
+      "tick",
+      "done",
+      "success",
+      "完成",
+      "成功",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "close",
+    "componentName": "Close",
+    "category": "status",
+    "tags": [
+      "close",
+      "status",
+      "times",
+      "cancel",
+      "exit",
+      "关闭",
+      "取消",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "download",
+    "componentName": "Download",
+    "category": "status",
+    "tags": [
+      "download",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "heart",
+    "componentName": "Heart",
+    "category": "status",
+    "tags": [
+      "heart",
+      "status",
+      "like",
+      "favorite",
+      "love",
+      "喜欢",
+      "收藏",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "loading",
+    "componentName": "Loading",
+    "category": "status",
+    "tags": [
+      "loading",
+      "status",
+      "spinner",
+      "progress",
+      "wait",
+      "加载",
+      "等待",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "star",
+    "componentName": "Star",
+    "category": "status",
+    "tags": [
+      "star",
+      "status",
+      "favorite",
+      "bookmark",
+      "星标",
+      "收藏",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "upload",
+    "componentName": "Upload",
+    "category": "status",
+    "tags": [
+      "upload",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  }
+]

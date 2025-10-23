@@ -1,6 +1,6 @@
 # @ldesign/icons
 
-> 统一图标系统 - 2000+ SVG 图标，支持 React/Vue/Web Components，按需导入
+> 统一图标系统 - 企业级 SVG 图标库，支持 React/Vue/Lit，按需导入
 
 [![npm version](https://img.shields.io/npm/v/@ldesign/icons.svg)](https://www.npmjs.com/package/@ldesign/icons)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
@@ -8,14 +8,15 @@
 
 ## ✨ 特性
 
-- 🎨 **2000+ 图标** - 整合 Lucide、Material Icons、Feather Icons
-- 📦 **多框架支持** - React、Vue 3、Web Components
+- 🎨 **18+ 核心图标** - 精心设计的 SVG 图标（持续扩展中）
+- 📦 **多框架支持** - React、Vue 3、Lit (Web Components)
 - 🔥 **按需导入** - Tree-shaking 友好，只打包使用的图标
 - 🎯 **TypeScript** - 完整的类型定义和智能提示
-- ⚡ **图标字体** - 支持生成 TTF/WOFF/WOFF2 字体文件
+- ⚡ **图标字体** - 自动生成 TTF/WOFF/WOFF2 字体文件
 - 🔍 **图标搜索** - 内置图标预览和搜索工具
 - 🎭 **自定义图标** - 轻松添加和管理自定义图标
-- 💼 **零依赖** - 核心包无外部运行时依赖
+- 💼 **零运行时依赖** - 核心包无外部运行时依赖
+- 🛠️ **自动化构建** - SVG 自动转换为各框架组件
 
 ## 📦 安装
 
@@ -80,19 +81,21 @@ function App() {
 }
 ```
 
-### Web Components
+### Lit / Web Components
 
 ```html
-<script src="@ldesign/icons/web-components"></script>
+<script type="module">
+  import '@ldesign/icons/lit'
+</script>
 
 <!-- 基础用法 -->
-<ld-icon name="home"></ld-icon>
+<ld-icon-home></ld-icon-home>
 
 <!-- 自定义大小和颜色 -->
-<ld-icon name="search" size="24" color="#1890ff"></ld-icon>
+<ld-icon-search size="24" color="#1890ff"></ld-icon-search>
 
 <!-- 旋转动画 -->
-<ld-icon name="loading" spin></ld-icon>
+<ld-icon-loading spin></ld-icon-loading>
 ```
 
 ## 📖 API
@@ -214,24 +217,95 @@ const IconComponent = Icons[`${iconName}Icon`]
 
 ## 🛠️ 开发
 
+### 快速开始
+
 ```bash
-# 安装依赖
+# 1. 安装依赖
 pnpm install
 
-# 生成图标组件
-pnpm run generate:all
+# 2. 添加 SVG 图标到 svg/ 目录
+# svg/general/my-icon.svg
 
-# 构建
-pnpm run build
+# 3. 生成组件
+pnpm generate        # 生成 Vue/React/Lit 组件
+pnpm generate:fonts  # 生成图标字体
 
-# 测试
+# 4. 构建
+pnpm build
+
+# 5. 测试
 pnpm test
-
-# 开发模式
-pnpm dev
 ```
+
+### 项目结构
+
+```
+packages/icons/
+├── svg/                    # SVG 源文件（输入）
+│   ├── general/            # 通用图标
+│   ├── editing/            # 编辑类图标
+│   ├── navigation/         # 导航图标
+│   ├── media/              # 媒体图标
+│   └── status/             # 状态图标
+│
+├── scripts/                # 构建脚本
+│   ├── parsers/            # SVG 解析器
+│   ├── generators/         # 组件生成器
+│   ├── font/               # 字体生成器
+│   ├── templates/          # Handlebars 模板
+│   └── generate-all.ts     # 主生成脚本
+│
+├── src/                    # 源代码（输出）
+│   ├── vue/                # Vue 组件
+│   ├── react/              # React 组件
+│   ├── lit/                # Lit 组件
+│   └── metadata.json       # 图标元数据
+│
+└── fonts/                  # 字体文件（输出）
+    ├── ldesign-icons.ttf
+    ├── ldesign-icons.woff
+    ├── ldesign-icons.woff2
+    └── preview.html
+```
+
+### 核心概念
+
+#### SVG → 组件自动生成流程
+
+1. **解析** - `SvgParser` 解析 SVG 文件，提取 path 和 viewBox
+2. **优化** - `SvgOptimizer` 使用 SVGO 优化 SVG
+3. **元数据** - `MetadataExtractor` 生成图标元数据
+4. **生成** - 使用 Handlebars 模板生成各框架组件
+5. **字体** - 将 SVG 转换为 TTF/WOFF/WOFF2 字体
+
+#### 参考的最佳实践
+
+- **TDesign Icons** - 构建流程和工具链
+- **Lucide** - 组件设计和 API
+- **Heroicons** - SVG 优化和规范
+- **Iconify** - 元数据和搜索系统
+
+### 添加新图标
+
+1. 将 SVG 文件放入 `svg/` 对应分类目录
+2. 确保 SVG 格式符合规范（viewBox="0 0 24 24"）
+3. 运行 `pnpm generate` 自动生成组件
+4. 运行 `pnpm generate:fonts` 生成字体文件
+
+详见：[DEVELOPMENT.md](./docs/DEVELOPMENT.md)
+
+## 📚 文档
+
+- [使用指南](./docs/USAGE.md) - 详细的 API 和使用示例
+- [开发指南](./docs/DEVELOPMENT.md) - 贡献和扩展指南
+- [项目计划](./PROJECT_PLAN.md) - 完整的项目规划
 
 ## 📄 许可证
 
 MIT © LDesign Team
+
+
+
+
+
 

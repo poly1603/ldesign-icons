@@ -1,0 +1,12 @@
+export { IconBase, createReactIcon, type ReactIconProps } from './IconBase'
+export type { IconProps } from '../types'
+import './style.css'
+
+// 图标组件
+{{#each icons}}
+export { {{ componentName }}Icon } from './icons/{{ fileName }}'
+{{/each}}
+
+
+
+

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@ldesign/icons Lit / Web Components 示例</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f7fa;
+      padding: 20px;
+    }
+
+    .header {
+      background: white;
+      padding: 40px;
+      text-align: center;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      font-size: 42px;
+      color: #1890ff;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 18px;
+    }
+
+    .section {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .icon-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+
+    .icon-item:hover {
+      border-color: #1890ff;
+      box-shadow: 0 4px 12px rgba(24, 144, 255, 0.15);
+      transform: translateY(-2px);
+    }
+
+    .icon-name {
+      margin-top: 12px;
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+    }
+
+    .demo-row {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 15px;
+      background: #f9fafb;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .demo-row label {
+      min-width: 120px;
+      color: #666;
+    }
+
+    code {
+      background: #f5f7fa;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Consolas', monospace;
+      font-size: 13px;
+    }
+
+    pre {
+      background: #f5f7fa;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 10px 0;
+    }
+
+    pre code {
+      padding: 0;
+      background: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>@ldesign/icons</h1>
+    <p class="subtitle">Lit / Web Components 图标库示例</p>
+  </div>
+
+  <!-- 基础用法 -->
+  <div class="section">
+    <h2>基础用法</h2>
+    <p>直接使用 Web Components 标签：</p>
+    <div class="icon-grid">
+      <div class="icon-item">
+        <ld-icon-home></ld-icon-home>
+        <div class="icon-name">home</div>
+      </div>
+      <div class="icon-item">
+        <ld-icon-search></ld-icon-search>
+        <div class="icon-name">search</div>
+      </div>
+      <div class="icon-item">
+        <ld-icon-settings></ld-icon-settings>
+        <div class="icon-name">settings</div>
+      </div>
+      <div class="icon-item">
+        <ld-icon-user></ld-icon-user>
+        <div class="icon-name">user</div>
+      </div>
+      <div class="icon-item">
+        <ld-icon-menu></ld-icon-menu>
+        <div class="icon-name">menu</div>
+      </div>
+    </div>
+
+    <pre><code>&lt;ld-icon-home&gt;&lt;/ld-icon-home&gt;
+&lt;ld-icon-search&gt;&lt;/ld-icon-search&gt;</code></pre>
+  </div>
+
+  <!-- 自定义大小和颜色 -->
+  <div class="section">
+    <h2>自定义大小和颜色</h2>
+    <div class="demo-row">
+      <label>size="16"</label>
+      <ld-icon-heart size="16"></ld-icon-heart>
+      <code>&lt;ld-icon-heart size="16"&gt;&lt;/ld-icon-heart&gt;</code>
+    </div>
+    <div class="demo-row">
+      <label>size="32"</label>
+      <ld-icon-heart size="32"></ld-icon-heart>
+      <code>&lt;ld-icon-heart size="32"&gt;&lt;/ld-icon-heart&gt;</code>
+    </div>
+    <div class="demo-row">
+      <label>size="64"</label>
+      <ld-icon-heart size="64"></ld-icon-heart>
+      <code>&lt;ld-icon-heart size="64"&gt;&lt;/ld-icon-heart&gt;</code>
+    </div>
+    <div class="demo-row">
+      <label>color="red"</label>
+      <ld-icon-heart size="32" color="red"></ld-icon-heart>
+      <code>&lt;ld-icon-heart color="red"&gt;&lt;/ld-icon-heart&gt;</code>
+    </div>
+    <div class="demo-row">
+      <label>color="#1890ff"</label>
+      <ld-icon-star size="32" color="#1890ff"></ld-icon-star>
+      <code>&lt;ld-icon-star color="#1890ff"&gt;&lt;/ld-icon-star&gt;</code>
+    </div>
+  </div>
+
+  <!-- 旋转和动画 -->
+  <div class="section">
+    <h2>旋转和动画</h2>
+    <div class="demo-row">
+      <label>spin</label>
+      <ld-icon-loading size="32" spin></ld-icon-loading>
+      <code>&lt;ld-icon-loading spin&gt;&lt;/ld-icon-loading&gt;</code>
+    </div>
+    <div class="demo-row">
+      <label>rotate="45"</label>
+      <ld-icon-settings size="32" rotate="45"></ld-icon-settings>
+      <code>&lt;ld-icon-settings rotate="45"&gt;&lt;/ld-icon-settings&gt;</code>
+    </div>
+    <div class="demo-row">
+      <label>rotate="90"</label>
+      <ld-icon-settings size="32" rotate="90"></ld-icon-settings>
+      <code>&lt;ld-icon-settings rotate="90"&gt;&lt;/ld-icon-settings&gt;</code>
+    </div>
+  </div>
+
+  <!-- 所有图标 -->
+  <div class="section">
+    <h2>所有图标 (22个)</h2>
+
+    <h3 style="margin: 20px 0 10px; color: #666;">通用图标 (5个)</h3>
+    <div class="icon-grid">
+      <div class="icon-item"><ld-icon-home size="32"></ld-icon-home>
+        <div class="icon-name">home</div>
+      </div>
+      <div class="icon-item"><ld-icon-search size="32"></ld-icon-search>
+        <div class="icon-name">search</div>
+      </div>
+      <div class="icon-item"><ld-icon-settings size="32"></ld-icon-settings>
+        <div class="icon-name">settings</div>
+      </div>
+      <div class="icon-item"><ld-icon-user size="32"></ld-icon-user>
+        <div class="icon-name">user</div>
+      </div>
+      <div class="icon-item"><ld-icon-menu size="32"></ld-icon-menu>
+        <div class="icon-name">menu</div>
+      </div>
+    </div>
+
+    <h3 style="margin: 20px 0 10px; color: #666;">编辑图标 (4个)</h3>
+    <div class="icon-grid">
+      <div class="icon-item"><ld-icon-edit size="32"></ld-icon-edit>
+        <div class="icon-name">edit</div>
+      </div>
+      <div class="icon-item"><ld-icon-delete size="32"></ld-icon-delete>
+        <div class="icon-name">delete</div>
+      </div>
+      <div class="icon-item"><ld-icon-save size="32"></ld-icon-save>
+        <div class="icon-name">save</div>
+      </div>
+      <div class="icon-item"><ld-icon-copy size="32"></ld-icon-copy>
+        <div class="icon-name">copy</div>
+      </div>
+    </div>
+
+    <h3 style="margin: 20px 0 10px; color: #666;">导航图标 (4个)</h3>
+    <div class="icon-grid">
+      <div class="icon-item"><ld-icon-chevron-down size="32"></ld-icon-chevron-down>
+        <div class="icon-name">chevron-down</div>
+      </div>
+      <div class="icon-item"><ld-icon-chevron-up size="32"></ld-icon-chevron-up>
+        <div class="icon-name">chevron-up</div>
+      </div>
+      <div class="icon-item"><ld-icon-chevron-left size="32"></ld-icon-chevron-left>
+        <div class="icon-name">chevron-left</div>
+      </div>
+      <div class="icon-item"><ld-icon-chevron-right size="32"></ld-icon-chevron-right>
+        <div class="icon-name">chevron-right</div>
+      </div>
+    </div>
+
+    <h3 style="margin: 20px 0 10px; color: #666;">媒体图标 (2个)</h3>
+    <div class="icon-grid">
+      <div class="icon-item"><ld-icon-play size="32"></ld-icon-play>
+        <div class="icon-name">play</div>
+      </div>
+      <div class="icon-item"><ld-icon-pause size="32"></ld-icon-pause>
+        <div class="icon-name">pause</div>
+      </div>
+    </div>
+
+    <h3 style="margin: 20px 0 10px; color: #666;">状态图标 (7个)</h3>
+    <div class="icon-grid">
+      <div class="icon-item"><ld-icon-loading size="32" spin></ld-icon-loading>
+        <div class="icon-name">loading</div>
+      </div>
+      <div class="icon-item"><ld-icon-check size="32"></ld-icon-check>
+        <div class="icon-name">check</div>
+      </div>
+      <div class="icon-item"><ld-icon-close size="32"></ld-icon-close>
+        <div class="icon-name">close</div>
+      </div>
+      <div class="icon-item"><ld-icon-heart size="32"></ld-icon-heart>
+        <div class="icon-name">heart</div>
+      </div>
+      <div class="icon-item"><ld-icon-star size="32"></ld-icon-star>
+        <div class="icon-name">star</div>
+      </div>
+      <div class="icon-item"><ld-icon-download size="32"></ld-icon-download>
+        <div class="icon-name">download</div>
+      </div>
+      <div class="icon-item"><ld-icon-upload size="32"></ld-icon-upload>
+        <div class="icon-name">upload</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    // 导入所有 Lit 图标组件
+    import '../../src/lit/index.ts'
+  </script>
+</body>
+
+</html>
+

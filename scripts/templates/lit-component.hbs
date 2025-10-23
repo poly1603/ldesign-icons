@@ -1,0 +1,23 @@
+import { createLitIcon } from '../IconBase'
+
+/**
+ * {{ componentName }} 图标
+ * 使用方式: <{{ tagName }}></{{ tagName }}>
+ */
+export const {{ componentName }}Icon = createLitIcon(
+  '{{ tagName }}',
+  {{#if isMultiPath}}
+  [
+    {{#each paths}}
+    '{{ this }}'{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+  {{else}}
+  '{{ paths.[0] }}'
+  {{/if}},
+  '{{ viewBox }}'
+)
+
+
+
+

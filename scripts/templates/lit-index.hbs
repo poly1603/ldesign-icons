@@ -1,0 +1,19 @@
+export { LdIconBase, createLitIcon } from './IconBase'
+export type { IconProps } from '../types'
+import './style.css'
+
+// 图标组件
+{{#each icons}}
+export { {{ componentName }}Icon } from './icons/{{ fileName }}'
+{{/each}}
+
+// 自动注册所有图标为 Web Components
+if (typeof customElements !== 'undefined') {
+  {{#each icons}}
+  // {{ tagName }} 已在 ./icons/{{ fileName }} 中注册
+  {{/each}}
+}
+
+
+
+

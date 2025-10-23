@@ -1,0 +1,24 @@
+import { createVueIcon } from '../IconBase'
+
+/**
+ * {{ componentName }} 图标
+ */
+export const {{ componentName }}Icon = createVueIcon(
+  '{{ componentName }}',
+  {{#if isMultiPath}}
+  [
+    {{#each paths}}
+    '{{ this }}'{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+  {{else}}
+  '{{ paths.[0] }}'
+  {{/if}},
+  '{{ viewBox }}'
+)
+
+{{ componentName }}Icon.displayName = '{{ componentName }}Icon'
+
+
+
+
