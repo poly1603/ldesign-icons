@@ -97,9 +97,10 @@
     "lib"
   ],
   "scripts": {
-    "build": "ldesign-builder build -f esm,cjs,dts",
+    "build": "ldesign-builder build",
+    "build:watch": "ldesign-builder build --watch",
+    "dev": "ldesign-builder build --mode development --watch",
     "build:fonts": "tsx scripts/font/font-generator.ts",
-    "dev": "ldesign-builder watch",
     "type-check": "tsc --noEmit",
     "lint": "eslint . --fix",
     "lint:check": "eslint .",
@@ -107,7 +108,7 @@
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "clean": "rimraf es lib fonts coverage src/vue/icons src/react/icons src/lit/icons src/metadata.json",
+    "clean": "rimraf es lib dist fonts coverage src/vue/icons src/react/icons src/lit/icons src/metadata.json",
     "prepublishOnly": "pnpm run clean && pnpm run generate && pnpm run build",
     "svg:optimize": "tsx scripts/optimize-svgs.ts",
     "generate": "tsx scripts/generate-all.ts",
