@@ -16,6 +16,7 @@ export class ReactGenerator extends BaseGenerator {
       paths: svg.paths,
       viewBox: svg.viewBox,
       isMultiPath: svg.paths.length > 1,
+      isStroke: svg.isStroke,
     })
 
     const outputPath = join(this.outputDir, 'icons', `${svg.componentName}.tsx`)
@@ -26,10 +27,20 @@ export class ReactGenerator extends BaseGenerator {
    * 生成 React 索引文件
    */
   generateIndex(svgs: ParsedSvg[], metadatas: IconMetadata[]): void {
+    // 去重：使用 componentName 作为 key
+    const uniqueIcons = new Map<string, { componentName: string; fileName: string }>()
+
+    svgs.forEach(svg => {
+      if (!uniqueIcons.has(svg.componentName)) {
+        uniqueIcons.set(svg.componentName, {
+          componentName: svg.componentName,
+          fileName: svg.componentName,
+        })
+      }
+    })
+
     const code = this.renderTemplate('react-index.hbs', {
-      icons: svgs.map(svg => ({
-        componentName: svg.componentName,
-      })),
+      icons: Array.from(uniqueIcons.values()),
     })
 
     this.writeFile(join(this.outputDir, 'index.ts'), code)

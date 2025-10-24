@@ -192,9 +192,36 @@ export function registerIcons(icons: Record<string, IconDefinition>): void {
 }
 
 /**
+ * 检测 SVG path 是否为描边类型
+ * 通过检查 path 数据特征来判断
+ */
+export function detectStrokeIcon(pathData: string | string[]): boolean {
+  const paths = Array.isArray(pathData) ? pathData : [pathData]
+
+  // 检查 path 数据的特征
+  // stroke 图标通常：
+  // 1. 路径较短
+  // 2. 主要使用 M, L, C, Q 等简单命令
+  // 3. 很少使用填充区域 (Z 命令相对较少)
+  for (const path of paths) {
+    // 如果 path 包含多个闭合路径 (Z)，更可能是填充图标
+    const zCount = (path.match(/[Zz]/g) || []).length
+    const commandCount = (path.match(/[MLHVCQTAZmlhvcqtaz]/g) || []).length
+
+    // 简单启发式：如果闭合路径占比少于 30%，可能是 stroke 图标
+    // 但这不是绝对准确的方法，最好的方式是在图标元数据中标记
+    if (commandCount > 0 && zCount / commandCount < 0.3) {
+      return true
+    }
+  }
+
+  return false
+}
+
+/**
  * 获取SVG属性
  */
-export function getSvgProps(props: IconProps): {
+export function getSvgProps(props: IconProps, isStroke = false): {
   width: string
   height: string
   fill: string
@@ -204,13 +231,26 @@ export function getSvgProps(props: IconProps): {
   class?: string
 } {
   const size = formatSize(props.size)
+  const color = props.color || currentConfig.defaultColor
 
-  return {
-    width: size,
-    height: size,
-    fill: props.color || currentConfig.defaultColor,
-    strokeWidth: props.strokeWidth || currentConfig.defaultStrokeWidth,
-    transform: getTransform(props),
+  if (isStroke) {
+    // stroke 类型图标
+    return {
+      width: size,
+      height: size,
+      fill: 'none',
+      stroke: color,
+      strokeWidth: props.strokeWidth || currentConfig.defaultStrokeWidth,
+      transform: getTransform(props),
+    }
+  } else {
+    // fill 类型图标
+    return {
+      width: size,
+      height: size,
+      fill: color,
+      transform: getTransform(props),
+    }
   }
 }
 

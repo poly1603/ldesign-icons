@@ -1,5 +1,849 @@
 [
   {
+    "name": "antenna",
+    "componentName": "Antenna",
+    "category": "communication",
+    "tags": [
+      "antenna",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "at-sign",
+    "componentName": "AtSign",
+    "category": "communication",
+    "tags": [
+      "at sign",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bell-dot",
+    "componentName": "BellDot",
+    "category": "communication",
+    "tags": [
+      "bell dot",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bell-off",
+    "componentName": "BellOff",
+    "category": "communication",
+    "tags": [
+      "bell off",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bell-ring",
+    "componentName": "BellRing",
+    "category": "communication",
+    "tags": [
+      "bell ring",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bell",
+    "componentName": "Bell",
+    "category": "communication",
+    "tags": [
+      "bell",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "hash",
+    "componentName": "Hash",
+    "category": "communication",
+    "tags": [
+      "hash",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "inbox",
+    "componentName": "Inbox",
+    "category": "communication",
+    "tags": [
+      "inbox",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "mail",
+    "componentName": "Mail",
+    "category": "communication",
+    "tags": [
+      "mail",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "megaphone",
+    "componentName": "Megaphone",
+    "category": "communication",
+    "tags": [
+      "megaphone",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "message-circle",
+    "componentName": "MessageCircle",
+    "category": "communication",
+    "tags": [
+      "message circle",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "message-square",
+    "componentName": "MessageSquare",
+    "category": "communication",
+    "tags": [
+      "message square",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "messages-square",
+    "componentName": "MessagesSquare",
+    "category": "communication",
+    "tags": [
+      "messages square",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "mic-off",
+    "componentName": "MicOff",
+    "category": "communication",
+    "tags": [
+      "mic off",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "mic",
+    "componentName": "Mic",
+    "category": "communication",
+    "tags": [
+      "mic",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "phone-call",
+    "componentName": "PhoneCall",
+    "category": "communication",
+    "tags": [
+      "phone call",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "phone-forwarded",
+    "componentName": "PhoneForwarded",
+    "category": "communication",
+    "tags": [
+      "phone forwarded",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "phone-incoming",
+    "componentName": "PhoneIncoming",
+    "category": "communication",
+    "tags": [
+      "phone incoming",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "phone-missed",
+    "componentName": "PhoneMissed",
+    "category": "communication",
+    "tags": [
+      "phone missed",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "phone-off",
+    "componentName": "PhoneOff",
+    "category": "communication",
+    "tags": [
+      "phone off",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "phone-outgoing",
+    "componentName": "PhoneOutgoing",
+    "category": "communication",
+    "tags": [
+      "phone outgoing",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "phone",
+    "componentName": "Phone",
+    "category": "communication",
+    "tags": [
+      "phone",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "radio",
+    "componentName": "Radio",
+    "category": "communication",
+    "tags": [
+      "radio",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "rss",
+    "componentName": "Rss",
+    "category": "communication",
+    "tags": [
+      "rss",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "satellite",
+    "componentName": "Satellite",
+    "category": "communication",
+    "tags": [
+      "satellite",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "send-horizontal",
+    "componentName": "SendHorizontal",
+    "category": "communication",
+    "tags": [
+      "send horizontal",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "send",
+    "componentName": "Send",
+    "category": "communication",
+    "tags": [
+      "send",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "share-2",
+    "componentName": "Share2",
+    "category": "communication",
+    "tags": [
+      "share 2",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "share",
+    "componentName": "Share",
+    "category": "communication",
+    "tags": [
+      "share",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "video-off",
+    "componentName": "VideoOff",
+    "category": "communication",
+    "tags": [
+      "video off",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "video",
+    "componentName": "Video",
+    "category": "communication",
+    "tags": [
+      "video",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "voicemail",
+    "componentName": "Voicemail",
+    "category": "communication",
+    "tags": [
+      "voicemail",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "wifi",
+    "componentName": "Wifi",
+    "category": "communication",
+    "tags": [
+      "wifi",
+      "communication"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "airplay",
+    "componentName": "Airplay",
+    "category": "devices",
+    "tags": [
+      "airplay",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "antenna",
+    "componentName": "Antenna",
+    "category": "devices",
+    "tags": [
+      "antenna",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bluetooth",
+    "componentName": "Bluetooth",
+    "category": "devices",
+    "tags": [
+      "bluetooth",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cast",
+    "componentName": "Cast",
+    "category": "devices",
+    "tags": [
+      "cast",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud",
+    "componentName": "Cloud",
+    "category": "devices",
+    "tags": [
+      "cloud",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "code",
+    "componentName": "Code",
+    "category": "devices",
+    "tags": [
+      "code",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cpu",
+    "componentName": "Cpu",
+    "category": "devices",
+    "tags": [
+      "cpu",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "database",
+    "componentName": "Database",
+    "category": "devices",
+    "tags": [
+      "database",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "disc",
+    "componentName": "Disc",
+    "category": "devices",
+    "tags": [
+      "disc",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "gamepad-2",
+    "componentName": "Gamepad2",
+    "category": "devices",
+    "tags": [
+      "gamepad 2",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "gamepad",
+    "componentName": "Gamepad",
+    "category": "devices",
+    "tags": [
+      "gamepad",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "hard-drive",
+    "componentName": "HardDrive",
+    "category": "devices",
+    "tags": [
+      "hard drive",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "headphones",
+    "componentName": "Headphones",
+    "category": "devices",
+    "tags": [
+      "headphones",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "keyboard",
+    "componentName": "Keyboard",
+    "category": "devices",
+    "tags": [
+      "keyboard",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "laptop",
+    "componentName": "Laptop",
+    "category": "devices",
+    "tags": [
+      "laptop",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "monitor",
+    "componentName": "Monitor",
+    "category": "devices",
+    "tags": [
+      "monitor",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "mouse",
+    "componentName": "Mouse",
+    "category": "devices",
+    "tags": [
+      "mouse",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "printer",
+    "componentName": "Printer",
+    "category": "devices",
+    "tags": [
+      "printer",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "router",
+    "componentName": "Router",
+    "category": "devices",
+    "tags": [
+      "router",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "rss",
+    "componentName": "Rss",
+    "category": "devices",
+    "tags": [
+      "rss",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "satellite",
+    "componentName": "Satellite",
+    "category": "devices",
+    "tags": [
+      "satellite",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "save",
+    "componentName": "Save",
+    "category": "devices",
+    "tags": [
+      "save",
+      "devices",
+      "disk",
+      "storage",
+      "保存",
+      "存储"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "scan",
+    "componentName": "Scan",
+    "category": "devices",
+    "tags": [
+      "scan",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "server",
+    "componentName": "Server",
+    "category": "devices",
+    "tags": [
+      "server",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "smartphone",
+    "componentName": "Smartphone",
+    "category": "devices",
+    "tags": [
+      "smartphone",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "speaker",
+    "componentName": "Speaker",
+    "category": "devices",
+    "tags": [
+      "speaker",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "tablet",
+    "componentName": "Tablet",
+    "category": "devices",
+    "tags": [
+      "tablet",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "terminal",
+    "componentName": "Terminal",
+    "category": "devices",
+    "tags": [
+      "terminal",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "tv",
+    "componentName": "Tv",
+    "category": "devices",
+    "tags": [
+      "tv",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "usb",
+    "componentName": "Usb",
+    "category": "devices",
+    "tags": [
+      "usb",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "watch",
+    "componentName": "Watch",
+    "category": "devices",
+    "tags": [
+      "watch",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "wifi",
+    "componentName": "Wifi",
+    "category": "devices",
+    "tags": [
+      "wifi",
+      "devices"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "clipboard-check",
+    "componentName": "ClipboardCheck",
+    "category": "editing",
+    "tags": [
+      "clipboard check",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "clipboard-copy",
+    "componentName": "ClipboardCopy",
+    "category": "editing",
+    "tags": [
+      "clipboard copy",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "clipboard-list",
+    "componentName": "ClipboardList",
+    "category": "editing",
+    "tags": [
+      "clipboard list",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "clipboard",
+    "componentName": "Clipboard",
+    "category": "editing",
+    "tags": [
+      "clipboard",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
     "name": "copy",
     "componentName": "Copy",
     "category": "editing",
@@ -14,7 +858,22 @@
       "edit",
       "modify"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "crop",
+    "componentName": "Crop",
+    "category": "editing",
+    "tags": [
+      "crop",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -34,7 +893,7 @@
       "edit",
       "modify"
     ],
-    "unicode": "",
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -51,7 +910,157 @@
       "编辑",
       "修改"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "eraser",
+    "componentName": "Eraser",
+    "category": "editing",
+    "tags": [
+      "eraser",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "hand",
+    "componentName": "Hand",
+    "category": "editing",
+    "tags": [
+      "hand",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "highlighter",
+    "componentName": "Highlighter",
+    "category": "editing",
+    "tags": [
+      "highlighter",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "move",
+    "componentName": "Move",
+    "category": "editing",
+    "tags": [
+      "move",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "paintbrush",
+    "componentName": "Paintbrush",
+    "category": "editing",
+    "tags": [
+      "paintbrush",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "palette",
+    "componentName": "Palette",
+    "category": "editing",
+    "tags": [
+      "palette",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "pen-line",
+    "componentName": "PenLine",
+    "category": "editing",
+    "tags": [
+      "pen line",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "pen-tool",
+    "componentName": "PenTool",
+    "category": "editing",
+    "tags": [
+      "pen tool",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "pencil",
+    "componentName": "Pencil",
+    "category": "editing",
+    "tags": [
+      "pencil",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "pipette",
+    "componentName": "Pipette",
+    "category": "editing",
+    "tags": [
+      "pipette",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -70,7 +1079,1855 @@
       "edit",
       "modify"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "scissors",
+    "componentName": "Scissors",
+    "category": "editing",
+    "tags": [
+      "scissors",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "trash-2",
+    "componentName": "Trash2",
+    "category": "editing",
+    "tags": [
+      "trash 2",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "trash",
+    "componentName": "Trash",
+    "category": "editing",
+    "tags": [
+      "trash",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "wand",
+    "componentName": "Wand",
+    "category": "editing",
+    "tags": [
+      "wand",
+      "editing",
+      "编辑",
+      "edit",
+      "modify"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "activity",
+    "componentName": "Activity",
+    "category": "business",
+    "tags": [
+      "activity",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "alarm-clock",
+    "componentName": "AlarmClock",
+    "category": "business",
+    "tags": [
+      "alarm clock",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "banknote",
+    "componentName": "Banknote",
+    "category": "business",
+    "tags": [
+      "banknote",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "briefcase",
+    "componentName": "Briefcase",
+    "category": "business",
+    "tags": [
+      "briefcase",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "building-2",
+    "componentName": "Building2",
+    "category": "business",
+    "tags": [
+      "building 2",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "building",
+    "componentName": "Building",
+    "category": "business",
+    "tags": [
+      "building",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calculator",
+    "componentName": "Calculator",
+    "category": "business",
+    "tags": [
+      "calculator",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calendar-check",
+    "componentName": "CalendarCheck",
+    "category": "business",
+    "tags": [
+      "calendar check",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calendar-clock",
+    "componentName": "CalendarClock",
+    "category": "business",
+    "tags": [
+      "calendar clock",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calendar-days",
+    "componentName": "CalendarDays",
+    "category": "business",
+    "tags": [
+      "calendar days",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calendar-minus",
+    "componentName": "CalendarMinus",
+    "category": "business",
+    "tags": [
+      "calendar minus",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calendar-plus",
+    "componentName": "CalendarPlus",
+    "category": "business",
+    "tags": [
+      "calendar plus",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calendar-range",
+    "componentName": "CalendarRange",
+    "category": "business",
+    "tags": [
+      "calendar range",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calendar-x",
+    "componentName": "CalendarX",
+    "category": "business",
+    "tags": [
+      "calendar x",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "calendar",
+    "componentName": "Calendar",
+    "category": "business",
+    "tags": [
+      "calendar",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "clock",
+    "componentName": "Clock",
+    "category": "business",
+    "tags": [
+      "clock",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "credit-card",
+    "componentName": "CreditCard",
+    "category": "business",
+    "tags": [
+      "credit card",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "dollar-sign",
+    "componentName": "DollarSign",
+    "category": "business",
+    "tags": [
+      "dollar sign",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "factory",
+    "componentName": "Factory",
+    "category": "business",
+    "tags": [
+      "factory",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "hourglass",
+    "componentName": "Hourglass",
+    "category": "business",
+    "tags": [
+      "hourglass",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "landmark",
+    "componentName": "Landmark",
+    "category": "business",
+    "tags": [
+      "landmark",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "receipt",
+    "componentName": "Receipt",
+    "category": "business",
+    "tags": [
+      "receipt",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "shopping-bag",
+    "componentName": "ShoppingBag",
+    "category": "business",
+    "tags": [
+      "shopping bag",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "shopping-cart",
+    "componentName": "ShoppingCart",
+    "category": "business",
+    "tags": [
+      "shopping cart",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "store",
+    "componentName": "Store",
+    "category": "business",
+    "tags": [
+      "store",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "timer",
+    "componentName": "Timer",
+    "category": "business",
+    "tags": [
+      "timer",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "trending-down",
+    "componentName": "TrendingDown",
+    "category": "business",
+    "tags": [
+      "trending down",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "trending-up",
+    "componentName": "TrendingUp",
+    "category": "business",
+    "tags": [
+      "trending up",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "wallet",
+    "componentName": "Wallet",
+    "category": "business",
+    "tags": [
+      "wallet",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "warehouse",
+    "componentName": "Warehouse",
+    "category": "business",
+    "tags": [
+      "warehouse",
+      "business"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "archive",
+    "componentName": "Archive",
+    "category": "file",
+    "tags": [
+      "archive",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "box",
+    "componentName": "Box",
+    "category": "file",
+    "tags": [
+      "box",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "database",
+    "componentName": "Database",
+    "category": "file",
+    "tags": [
+      "database",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-archive",
+    "componentName": "FileArchive",
+    "category": "file",
+    "tags": [
+      "file archive",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-audio",
+    "componentName": "FileAudio",
+    "category": "file",
+    "tags": [
+      "file audio",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-check",
+    "componentName": "FileCheck",
+    "category": "file",
+    "tags": [
+      "file check",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-code",
+    "componentName": "FileCode",
+    "category": "file",
+    "tags": [
+      "file code",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-image",
+    "componentName": "FileImage",
+    "category": "file",
+    "tags": [
+      "file image",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-minus",
+    "componentName": "FileMinus",
+    "category": "file",
+    "tags": [
+      "file minus",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-plus",
+    "componentName": "FilePlus",
+    "category": "file",
+    "tags": [
+      "file plus",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-search",
+    "componentName": "FileSearch",
+    "category": "file",
+    "tags": [
+      "file search",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-spreadsheet",
+    "componentName": "FileSpreadsheet",
+    "category": "file",
+    "tags": [
+      "file spreadsheet",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-text",
+    "componentName": "FileText",
+    "category": "file",
+    "tags": [
+      "file text",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file-x",
+    "componentName": "FileX",
+    "category": "file",
+    "tags": [
+      "file x",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "file",
+    "componentName": "File",
+    "category": "file",
+    "tags": [
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "files",
+    "componentName": "Files",
+    "category": "file",
+    "tags": [
+      "files",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "folder-check",
+    "componentName": "FolderCheck",
+    "category": "file",
+    "tags": [
+      "folder check",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "folder-minus",
+    "componentName": "FolderMinus",
+    "category": "file",
+    "tags": [
+      "folder minus",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "folder-open",
+    "componentName": "FolderOpen",
+    "category": "file",
+    "tags": [
+      "folder open",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "folder-plus",
+    "componentName": "FolderPlus",
+    "category": "file",
+    "tags": [
+      "folder plus",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "folder-search",
+    "componentName": "FolderSearch",
+    "category": "file",
+    "tags": [
+      "folder search",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "folder-x",
+    "componentName": "FolderX",
+    "category": "file",
+    "tags": [
+      "folder x",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "folder",
+    "componentName": "Folder",
+    "category": "file",
+    "tags": [
+      "folder",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "folders",
+    "componentName": "Folders",
+    "category": "file",
+    "tags": [
+      "folders",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "hard-drive",
+    "componentName": "HardDrive",
+    "category": "file",
+    "tags": [
+      "hard drive",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "inbox",
+    "componentName": "Inbox",
+    "category": "file",
+    "tags": [
+      "inbox",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "package-2",
+    "componentName": "Package2",
+    "category": "file",
+    "tags": [
+      "package 2",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "package-check",
+    "componentName": "PackageCheck",
+    "category": "file",
+    "tags": [
+      "package check",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "package-minus",
+    "componentName": "PackageMinus",
+    "category": "file",
+    "tags": [
+      "package minus",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "package-plus",
+    "componentName": "PackagePlus",
+    "category": "file",
+    "tags": [
+      "package plus",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "package-search",
+    "componentName": "PackageSearch",
+    "category": "file",
+    "tags": [
+      "package search",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "package-x",
+    "componentName": "PackageX",
+    "category": "file",
+    "tags": [
+      "package x",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "package",
+    "componentName": "Package",
+    "category": "file",
+    "tags": [
+      "package",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "save-all",
+    "componentName": "SaveAll",
+    "category": "file",
+    "tags": [
+      "save all",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "save",
+    "componentName": "Save",
+    "category": "file",
+    "tags": [
+      "save",
+      "file",
+      "disk",
+      "storage",
+      "保存",
+      "存储"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "server",
+    "componentName": "Server",
+    "category": "file",
+    "tags": [
+      "server",
+      "file"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "arrow-down-left",
+    "componentName": "ArrowDownLeft",
+    "category": "navigation",
+    "tags": [
+      "arrow down left",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "arrow-down-right",
+    "componentName": "ArrowDownRight",
+    "category": "navigation",
+    "tags": [
+      "arrow down right",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "arrow-down",
+    "componentName": "ArrowDown",
+    "category": "navigation",
+    "tags": [
+      "arrow down",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "arrow-left",
+    "componentName": "ArrowLeft",
+    "category": "navigation",
+    "tags": [
+      "arrow left",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "arrow-right",
+    "componentName": "ArrowRight",
+    "category": "navigation",
+    "tags": [
+      "arrow right",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "arrow-up-left",
+    "componentName": "ArrowUpLeft",
+    "category": "navigation",
+    "tags": [
+      "arrow up left",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "arrow-up-right",
+    "componentName": "ArrowUpRight",
+    "category": "navigation",
+    "tags": [
+      "arrow up right",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "arrow-up",
+    "componentName": "ArrowUp",
+    "category": "navigation",
+    "tags": [
+      "arrow up",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevron-down",
+    "componentName": "ChevronDown",
+    "category": "navigation",
+    "tags": [
+      "chevron down",
+      "navigation",
+      "arrow down",
+      "caret down",
+      "向下",
+      "下拉",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevron-left",
+    "componentName": "ChevronLeft",
+    "category": "navigation",
+    "tags": [
+      "chevron left",
+      "navigation",
+      "arrow left",
+      "caret left",
+      "向左",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevron-right",
+    "componentName": "ChevronRight",
+    "category": "navigation",
+    "tags": [
+      "chevron right",
+      "navigation",
+      "arrow right",
+      "caret right",
+      "向右",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevron-up",
+    "componentName": "ChevronUp",
+    "category": "navigation",
+    "tags": [
+      "chevron up",
+      "navigation",
+      "arrow up",
+      "caret up",
+      "向上",
+      "上拉",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevrons-down",
+    "componentName": "ChevronsDown",
+    "category": "navigation",
+    "tags": [
+      "chevrons down",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevrons-left",
+    "componentName": "ChevronsLeft",
+    "category": "navigation",
+    "tags": [
+      "chevrons left",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevrons-right",
+    "componentName": "ChevronsRight",
+    "category": "navigation",
+    "tags": [
+      "chevrons right",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "chevrons-up",
+    "componentName": "ChevronsUp",
+    "category": "navigation",
+    "tags": [
+      "chevrons up",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": true,
+    "deprecated": false
+  },
+  {
+    "name": "compass",
+    "componentName": "Compass",
+    "category": "navigation",
+    "tags": [
+      "compass",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "corner-down-left",
+    "componentName": "CornerDownLeft",
+    "category": "navigation",
+    "tags": [
+      "corner down left",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "corner-down-right",
+    "componentName": "CornerDownRight",
+    "category": "navigation",
+    "tags": [
+      "corner down right",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "corner-left-down",
+    "componentName": "CornerLeftDown",
+    "category": "navigation",
+    "tags": [
+      "corner left down",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "corner-left-up",
+    "componentName": "CornerLeftUp",
+    "category": "navigation",
+    "tags": [
+      "corner left up",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "corner-right-down",
+    "componentName": "CornerRightDown",
+    "category": "navigation",
+    "tags": [
+      "corner right down",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "corner-right-up",
+    "componentName": "CornerRightUp",
+    "category": "navigation",
+    "tags": [
+      "corner right up",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "corner-up-left",
+    "componentName": "CornerUpLeft",
+    "category": "navigation",
+    "tags": [
+      "corner up left",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "corner-up-right",
+    "componentName": "CornerUpRight",
+    "category": "navigation",
+    "tags": [
+      "corner up right",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "crosshair",
+    "componentName": "Crosshair",
+    "category": "navigation",
+    "tags": [
+      "crosshair",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "expand",
+    "componentName": "Expand",
+    "category": "navigation",
+    "tags": [
+      "expand",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "focus",
+    "componentName": "Focus",
+    "category": "navigation",
+    "tags": [
+      "focus",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "fullscreen",
+    "componentName": "Fullscreen",
+    "category": "navigation",
+    "tags": [
+      "fullscreen",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "locate-fixed",
+    "componentName": "LocateFixed",
+    "category": "navigation",
+    "tags": [
+      "locate fixed",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "locate",
+    "componentName": "Locate",
+    "category": "navigation",
+    "tags": [
+      "locate",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "map-pin",
+    "componentName": "MapPin",
+    "category": "navigation",
+    "tags": [
+      "map pin",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "map",
+    "componentName": "Map",
+    "category": "navigation",
+    "tags": [
+      "map",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "maximize",
+    "componentName": "Maximize",
+    "category": "navigation",
+    "tags": [
+      "maximize",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "minimize",
+    "componentName": "Minimize",
+    "category": "navigation",
+    "tags": [
+      "minimize",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "move-diagonal",
+    "componentName": "MoveDiagonal",
+    "category": "navigation",
+    "tags": [
+      "move diagonal",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "move-horizontal",
+    "componentName": "MoveHorizontal",
+    "category": "navigation",
+    "tags": [
+      "move horizontal",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "move-vertical",
+    "componentName": "MoveVertical",
+    "category": "navigation",
+    "tags": [
+      "move vertical",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "navigation",
+    "componentName": "Navigation",
+    "category": "navigation",
+    "tags": [
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "pin-off",
+    "componentName": "PinOff",
+    "category": "navigation",
+    "tags": [
+      "pin off",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "pin",
+    "componentName": "Pin",
+    "category": "navigation",
+    "tags": [
+      "pin",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "scan-line",
+    "componentName": "ScanLine",
+    "category": "navigation",
+    "tags": [
+      "scan line",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "scan",
+    "componentName": "Scan",
+    "category": "navigation",
+    "tags": [
+      "scan",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "shrink",
+    "componentName": "Shrink",
+    "category": "navigation",
+    "tags": [
+      "shrink",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "target",
+    "componentName": "Target",
+    "category": "navigation",
+    "tags": [
+      "target",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "zoom-in",
+    "componentName": "ZoomIn",
+    "category": "navigation",
+    "tags": [
+      "zoom in",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "zoom-out",
+    "componentName": "ZoomOut",
+    "category": "navigation",
+    "tags": [
+      "zoom out",
+      "navigation",
+      "导航",
+      "方向",
+      "direction"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "ampersand",
+    "componentName": "Ampersand",
+    "category": "general",
+    "tags": [
+      "ampersand",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "asterisk",
+    "componentName": "Asterisk",
+    "category": "general",
+    "tags": [
+      "asterisk",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "at-sign",
+    "componentName": "AtSign",
+    "category": "general",
+    "tags": [
+      "at sign",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "award",
+    "componentName": "Award",
+    "category": "general",
+    "tags": [
+      "award",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bookmark",
+    "componentName": "Bookmark",
+    "category": "general",
+    "tags": [
+      "bookmark",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "circle",
+    "componentName": "Circle",
+    "category": "general",
+    "tags": [
+      "circle",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "command",
+    "componentName": "Command",
+    "category": "general",
+    "tags": [
+      "command",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "crown",
+    "componentName": "Crown",
+    "category": "general",
+    "tags": [
+      "crown",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "diamond",
+    "componentName": "Diamond",
+    "category": "general",
+    "tags": [
+      "diamond",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "dot",
+    "componentName": "Dot",
+    "category": "general",
+    "tags": [
+      "dot",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "equal",
+    "componentName": "Equal",
+    "category": "general",
+    "tags": [
+      "equal",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "eye-off",
+    "componentName": "EyeOff",
+    "category": "general",
+    "tags": [
+      "eye off",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "eye",
+    "componentName": "Eye",
+    "category": "general",
+    "tags": [
+      "eye",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "flag",
+    "componentName": "Flag",
+    "category": "general",
+    "tags": [
+      "flag",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "gem",
+    "componentName": "Gem",
+    "category": "general",
+    "tags": [
+      "gem",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "hash",
+    "componentName": "Hash",
+    "category": "general",
+    "tags": [
+      "hash",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "heart",
+    "componentName": "Heart",
+    "category": "general",
+    "tags": [
+      "heart",
+      "general",
+      "like",
+      "favorite",
+      "love",
+      "喜欢",
+      "收藏",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "hexagon",
+    "componentName": "Hexagon",
+    "category": "general",
+    "tags": [
+      "hexagon",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -90,7 +2947,67 @@
       "通用",
       "common"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "key",
+    "componentName": "Key",
+    "category": "general",
+    "tags": [
+      "key",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "list",
+    "componentName": "List",
+    "category": "general",
+    "tags": [
+      "list",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "lock",
+    "componentName": "Lock",
+    "category": "general",
+    "tags": [
+      "lock",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "medal",
+    "componentName": "Medal",
+    "category": "general",
+    "tags": [
+      "medal",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -109,7 +3026,67 @@
       "通用",
       "common"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "minus",
+    "componentName": "Minus",
+    "category": "general",
+    "tags": [
+      "minus",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "octagon",
+    "componentName": "Octagon",
+    "category": "general",
+    "tags": [
+      "octagon",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "percent",
+    "componentName": "Percent",
+    "category": "general",
+    "tags": [
+      "percent",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "plus",
+    "componentName": "Plus",
+    "category": "general",
+    "tags": [
+      "plus",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -129,7 +3106,7 @@
       "通用",
       "common"
     ],
-    "unicode": "",
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -149,7 +3126,161 @@
       "通用",
       "common"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "shield",
+    "componentName": "Shield",
+    "category": "general",
+    "tags": [
+      "shield",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "slash",
+    "componentName": "Slash",
+    "category": "general",
+    "tags": [
+      "slash",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "square",
+    "componentName": "Square",
+    "category": "general",
+    "tags": [
+      "square",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "star",
+    "componentName": "Star",
+    "category": "general",
+    "tags": [
+      "star",
+      "general",
+      "favorite",
+      "bookmark",
+      "星标",
+      "收藏",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "tag",
+    "componentName": "Tag",
+    "category": "general",
+    "tags": [
+      "tag",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "tags",
+    "componentName": "Tags",
+    "category": "general",
+    "tags": [
+      "tags",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "toggle-left",
+    "componentName": "ToggleLeft",
+    "category": "general",
+    "tags": [
+      "toggle left",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "toggle-right",
+    "componentName": "ToggleRight",
+    "category": "general",
+    "tags": [
+      "toggle right",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "triangle",
+    "componentName": "Triangle",
+    "category": "general",
+    "tags": [
+      "triangle",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "trophy",
+    "componentName": "Trophy",
+    "category": "general",
+    "tags": [
+      "trophy",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -169,7 +3300,262 @@
       "通用",
       "common"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "users",
+    "componentName": "Users",
+    "category": "general",
+    "tags": [
+      "users",
+      "general",
+      "常用",
+      "通用",
+      "common"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "aperture",
+    "componentName": "Aperture",
+    "category": "media",
+    "tags": [
+      "aperture",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "camera-off",
+    "componentName": "CameraOff",
+    "category": "media",
+    "tags": [
+      "camera off",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "camera",
+    "componentName": "Camera",
+    "category": "media",
+    "tags": [
+      "camera",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "fast-forward",
+    "componentName": "FastForward",
+    "category": "media",
+    "tags": [
+      "fast forward",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "film",
+    "componentName": "Film",
+    "category": "media",
+    "tags": [
+      "film",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "focus",
+    "componentName": "Focus",
+    "category": "media",
+    "tags": [
+      "focus",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "headphones",
+    "componentName": "Headphones",
+    "category": "media",
+    "tags": [
+      "headphones",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "image",
+    "componentName": "Image",
+    "category": "media",
+    "tags": [
+      "image",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "images",
+    "componentName": "Images",
+    "category": "media",
+    "tags": [
+      "images",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "instagram",
+    "componentName": "Instagram",
+    "category": "media",
+    "tags": [
+      "instagram",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "mic-off",
+    "componentName": "MicOff",
+    "category": "media",
+    "tags": [
+      "mic off",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "mic",
+    "componentName": "Mic",
+    "category": "media",
+    "tags": [
+      "mic",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "music-2",
+    "componentName": "Music2",
+    "category": "media",
+    "tags": [
+      "music 2",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "music-3",
+    "componentName": "Music3",
+    "category": "media",
+    "tags": [
+      "music 3",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "music-4",
+    "componentName": "Music4",
+    "category": "media",
+    "tags": [
+      "music 4",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "music",
+    "componentName": "Music",
+    "category": "media",
+    "tags": [
+      "music",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -188,7 +3574,7 @@
       "播放",
       "play"
     ],
-    "unicode": "",
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -205,82 +3591,417 @@
       "开始",
       "媒体"
     ],
-    "unicode": "",
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
   {
-    "name": "chevron-down",
-    "componentName": "ChevronDown",
-    "category": "navigation",
+    "name": "podcast",
+    "componentName": "Podcast",
+    "category": "media",
     "tags": [
-      "chevron down",
-      "navigation",
-      "arrow down",
-      "caret down",
-      "向下",
-      "下拉",
-      "导航",
-      "方向",
-      "direction"
+      "podcast",
+      "media",
+      "媒体",
+      "播放",
+      "play"
     ],
-    "unicode": "",
-    "rtl": true,
+    "unicode": "",
+    "rtl": false,
     "deprecated": false
   },
   {
-    "name": "chevron-left",
-    "componentName": "ChevronLeft",
-    "category": "navigation",
+    "name": "radio",
+    "componentName": "Radio",
+    "category": "media",
     "tags": [
-      "chevron left",
-      "navigation",
-      "arrow left",
-      "caret left",
-      "向左",
-      "导航",
-      "方向",
-      "direction"
+      "radio",
+      "media",
+      "媒体",
+      "播放",
+      "play"
     ],
-    "unicode": "",
-    "rtl": true,
+    "unicode": "",
+    "rtl": false,
     "deprecated": false
   },
   {
-    "name": "chevron-right",
-    "componentName": "ChevronRight",
-    "category": "navigation",
+    "name": "repeat-1",
+    "componentName": "Repeat1",
+    "category": "media",
     "tags": [
-      "chevron right",
-      "navigation",
-      "arrow right",
-      "caret right",
-      "向右",
-      "导航",
-      "方向",
-      "direction"
+      "repeat 1",
+      "media",
+      "媒体",
+      "播放",
+      "play"
     ],
-    "unicode": "",
-    "rtl": true,
+    "unicode": "",
+    "rtl": false,
     "deprecated": false
   },
   {
-    "name": "chevron-up",
-    "componentName": "ChevronUp",
-    "category": "navigation",
+    "name": "repeat",
+    "componentName": "Repeat",
+    "category": "media",
     "tags": [
-      "chevron up",
-      "navigation",
-      "arrow up",
-      "caret up",
-      "向上",
-      "上拉",
-      "导航",
-      "方向",
-      "direction"
+      "repeat",
+      "media",
+      "媒体",
+      "播放",
+      "play"
     ],
-    "unicode": "",
-    "rtl": true,
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "rewind",
+    "componentName": "Rewind",
+    "category": "media",
+    "tags": [
+      "rewind",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "shuffle",
+    "componentName": "Shuffle",
+    "category": "media",
+    "tags": [
+      "shuffle",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "skip-back",
+    "componentName": "SkipBack",
+    "category": "media",
+    "tags": [
+      "skip back",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "skip-forward",
+    "componentName": "SkipForward",
+    "category": "media",
+    "tags": [
+      "skip forward",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "speaker",
+    "componentName": "Speaker",
+    "category": "media",
+    "tags": [
+      "speaker",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "twitch",
+    "componentName": "Twitch",
+    "category": "media",
+    "tags": [
+      "twitch",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "video-off",
+    "componentName": "VideoOff",
+    "category": "media",
+    "tags": [
+      "video off",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "video",
+    "componentName": "Video",
+    "category": "media",
+    "tags": [
+      "video",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "volume-1",
+    "componentName": "Volume1",
+    "category": "media",
+    "tags": [
+      "volume 1",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "volume-2",
+    "componentName": "Volume2",
+    "category": "media",
+    "tags": [
+      "volume 2",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "volume-x",
+    "componentName": "VolumeX",
+    "category": "media",
+    "tags": [
+      "volume x",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "volume",
+    "componentName": "Volume",
+    "category": "media",
+    "tags": [
+      "volume",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "youtube",
+    "componentName": "Youtube",
+    "category": "media",
+    "tags": [
+      "youtube",
+      "media",
+      "媒体",
+      "播放",
+      "play"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "ban",
+    "componentName": "Ban",
+    "category": "status",
+    "tags": [
+      "ban",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "battery-charging",
+    "componentName": "BatteryCharging",
+    "category": "status",
+    "tags": [
+      "battery charging",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "battery-full",
+    "componentName": "BatteryFull",
+    "category": "status",
+    "tags": [
+      "battery full",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "battery-low",
+    "componentName": "BatteryLow",
+    "category": "status",
+    "tags": [
+      "battery low",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "battery-medium",
+    "componentName": "BatteryMedium",
+    "category": "status",
+    "tags": [
+      "battery medium",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "battery-warning",
+    "componentName": "BatteryWarning",
+    "category": "status",
+    "tags": [
+      "battery warning",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "battery",
+    "componentName": "Battery",
+    "category": "status",
+    "tags": [
+      "battery",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bluetooth-connected",
+    "componentName": "BluetoothConnected",
+    "category": "status",
+    "tags": [
+      "bluetooth connected",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bluetooth-off",
+    "componentName": "BluetoothOff",
+    "category": "status",
+    "tags": [
+      "bluetooth off",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bluetooth-searching",
+    "componentName": "BluetoothSearching",
+    "category": "status",
+    "tags": [
+      "bluetooth searching",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "bluetooth",
+    "componentName": "Bluetooth",
+    "category": "status",
+    "tags": [
+      "bluetooth",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
     "deprecated": false
   },
   {
@@ -298,7 +4019,7 @@
       "状态",
       "state"
     ],
-    "unicode": "",
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -317,7 +4038,105 @@
       "状态",
       "state"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-drizzle",
+    "componentName": "CloudDrizzle",
+    "category": "status",
+    "tags": [
+      "cloud drizzle",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-fog",
+    "componentName": "CloudFog",
+    "category": "status",
+    "tags": [
+      "cloud fog",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-lightning",
+    "componentName": "CloudLightning",
+    "category": "status",
+    "tags": [
+      "cloud lightning",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-off",
+    "componentName": "CloudOff",
+    "category": "status",
+    "tags": [
+      "cloud off",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-rain",
+    "componentName": "CloudRain",
+    "category": "status",
+    "tags": [
+      "cloud rain",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-snow",
+    "componentName": "CloudSnow",
+    "category": "status",
+    "tags": [
+      "cloud snow",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud",
+    "componentName": "Cloud",
+    "category": "status",
+    "tags": [
+      "cloud",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -331,7 +4150,7 @@
       "状态",
       "state"
     ],
-    "unicode": "",
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -350,7 +4169,35 @@
       "状态",
       "state"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "info",
+    "componentName": "Info",
+    "category": "status",
+    "tags": [
+      "info",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "loader",
+    "componentName": "Loader",
+    "category": "status",
+    "tags": [
+      "loader",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -369,7 +4216,203 @@
       "状态",
       "state"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "plug-2",
+    "componentName": "Plug2",
+    "category": "status",
+    "tags": [
+      "plug 2",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "plug",
+    "componentName": "Plug",
+    "category": "status",
+    "tags": [
+      "plug",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "power-off",
+    "componentName": "PowerOff",
+    "category": "status",
+    "tags": [
+      "power off",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "power",
+    "componentName": "Power",
+    "category": "status",
+    "tags": [
+      "power",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "refresh-ccw",
+    "componentName": "RefreshCcw",
+    "category": "status",
+    "tags": [
+      "refresh ccw",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "refresh-cw",
+    "componentName": "RefreshCw",
+    "category": "status",
+    "tags": [
+      "refresh cw",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "rotate-ccw",
+    "componentName": "RotateCcw",
+    "category": "status",
+    "tags": [
+      "rotate ccw",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "rotate-cw",
+    "componentName": "RotateCw",
+    "category": "status",
+    "tags": [
+      "rotate cw",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "signal-high",
+    "componentName": "SignalHigh",
+    "category": "status",
+    "tags": [
+      "signal high",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "signal-low",
+    "componentName": "SignalLow",
+    "category": "status",
+    "tags": [
+      "signal low",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "signal-medium",
+    "componentName": "SignalMedium",
+    "category": "status",
+    "tags": [
+      "signal medium",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "signal-zero",
+    "componentName": "SignalZero",
+    "category": "status",
+    "tags": [
+      "signal zero",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "signal",
+    "componentName": "Signal",
+    "category": "status",
+    "tags": [
+      "signal",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "slash",
+    "componentName": "Slash",
+    "category": "status",
+    "tags": [
+      "slash",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -387,7 +4430,7 @@
       "状态",
       "state"
     ],
-    "unicode": "",
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   },
@@ -401,7 +4444,353 @@
       "状态",
       "state"
     ],
-    "unicode": "",
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "wifi-off",
+    "componentName": "WifiOff",
+    "category": "status",
+    "tags": [
+      "wifi off",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "wifi",
+    "componentName": "Wifi",
+    "category": "status",
+    "tags": [
+      "wifi",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "x",
+    "componentName": "X",
+    "category": "status",
+    "tags": [
+      "x",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "zap-off",
+    "componentName": "ZapOff",
+    "category": "status",
+    "tags": [
+      "zap off",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "zap",
+    "componentName": "Zap",
+    "category": "status",
+    "tags": [
+      "zap",
+      "status",
+      "状态",
+      "state"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-drizzle",
+    "componentName": "CloudDrizzle",
+    "category": "weather",
+    "tags": [
+      "cloud drizzle",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-fog",
+    "componentName": "CloudFog",
+    "category": "weather",
+    "tags": [
+      "cloud fog",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-lightning",
+    "componentName": "CloudLightning",
+    "category": "weather",
+    "tags": [
+      "cloud lightning",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-moon",
+    "componentName": "CloudMoon",
+    "category": "weather",
+    "tags": [
+      "cloud moon",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-rain",
+    "componentName": "CloudRain",
+    "category": "weather",
+    "tags": [
+      "cloud rain",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-snow",
+    "componentName": "CloudSnow",
+    "category": "weather",
+    "tags": [
+      "cloud snow",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud-sun",
+    "componentName": "CloudSun",
+    "category": "weather",
+    "tags": [
+      "cloud sun",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "cloud",
+    "componentName": "Cloud",
+    "category": "weather",
+    "tags": [
+      "cloud",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "droplet",
+    "componentName": "Droplet",
+    "category": "weather",
+    "tags": [
+      "droplet",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "droplets",
+    "componentName": "Droplets",
+    "category": "weather",
+    "tags": [
+      "droplets",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "moon",
+    "componentName": "Moon",
+    "category": "weather",
+    "tags": [
+      "moon",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "rainbow",
+    "componentName": "Rainbow",
+    "category": "weather",
+    "tags": [
+      "rainbow",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "snowflake",
+    "componentName": "Snowflake",
+    "category": "weather",
+    "tags": [
+      "snowflake",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "sun",
+    "componentName": "Sun",
+    "category": "weather",
+    "tags": [
+      "sun",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "sunrise",
+    "componentName": "Sunrise",
+    "category": "weather",
+    "tags": [
+      "sunrise",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "sunset",
+    "componentName": "Sunset",
+    "category": "weather",
+    "tags": [
+      "sunset",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "thermometer-snowflake",
+    "componentName": "ThermometerSnowflake",
+    "category": "weather",
+    "tags": [
+      "thermometer snowflake",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "thermometer-sun",
+    "componentName": "ThermometerSun",
+    "category": "weather",
+    "tags": [
+      "thermometer sun",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "thermometer",
+    "componentName": "Thermometer",
+    "category": "weather",
+    "tags": [
+      "thermometer",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "tornado",
+    "componentName": "Tornado",
+    "category": "weather",
+    "tags": [
+      "tornado",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "umbrella",
+    "componentName": "Umbrella",
+    "category": "weather",
+    "tags": [
+      "umbrella",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "waves",
+    "componentName": "Waves",
+    "category": "weather",
+    "tags": [
+      "waves",
+      "weather"
+    ],
+    "unicode": "",
+    "rtl": false,
+    "deprecated": false
+  },
+  {
+    "name": "wind",
+    "componentName": "Wind",
+    "category": "weather",
+    "tags": [
+      "wind",
+      "weather"
+    ],
+    "unicode": "",
     "rtl": false,
     "deprecated": false
   }

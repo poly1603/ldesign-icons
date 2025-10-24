@@ -1,6 +1,6 @@
 import { defineComponent, computed, h, type PropType, type CSSProperties } from 'vue'
 import type { IconProps } from '../types'
-import { getSvgProps, getIconClass } from '../utils'
+import { getSvgProps, getIconClass, detectStrokeIcon } from '../utils'
 
 /**
  * Vue 图标基础组件
@@ -72,6 +72,14 @@ export const IconBase = defineComponent({
       type: [String, Array] as PropType<string | string[]>,
       required: true,
     },
+
+    /**
+     * 是否为描边类型图标
+     */
+    isStroke: {
+      type: Boolean,
+      default: undefined,
+    },
   },
 
   setup(props, { attrs }) {
@@ -84,7 +92,15 @@ export const IconBase = defineComponent({
       flip: props.flip,
     }))
 
-    const svgProps = computed(() => getSvgProps(iconProps.value))
+    // 自动检测或使用传入的 isStroke
+    const isStrokeIcon = computed(() => {
+      if (props.isStroke !== undefined) {
+        return props.isStroke
+      }
+      return detectStrokeIcon(props.path)
+    })
+
+    const svgProps = computed(() => getSvgProps(iconProps.value, isStrokeIcon.value))
 
     const className = computed(() => {
       const customClass = typeof attrs.class === 'string' ? attrs.class : ''
@@ -127,7 +143,10 @@ export const IconBase = defineComponent({
             key: index,
             d: pathData,
             fill: svgProps.value.fill,
-            stroke: 'none',
+            stroke: svgProps.value.stroke,
+            strokeWidth: svgProps.value.strokeWidth,
+            strokeLinecap: isStrokeIcon.value ? 'round' : undefined,
+            strokeLinejoin: isStrokeIcon.value ? 'round' : undefined,
           }),
         ),
       )
@@ -138,7 +157,7 @@ export const IconBase = defineComponent({
 /**
  * 创建 Vue 图标组件
  */
-export function createVueIcon(name: string, path: string | string[], viewBox = '0 0 24 24') {
+export function createVueIcon(name: string, path: string | string[], viewBox = '0 0 24 24', isStroke?: boolean) {
   return defineComponent({
     name: `${name}Icon`,
     props: {
@@ -174,6 +193,7 @@ export function createVueIcon(name: string, path: string | string[], viewBox = '
           ...attrs,
           path,
           viewBox,
+          isStroke,
         })
     },
   })

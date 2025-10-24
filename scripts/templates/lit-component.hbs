@@ -15,7 +15,8 @@ export const {{ componentName }}Icon = createLitIcon(
   {{else}}
   '{{ paths.[0] }}'
   {{/if}},
-  '{{ viewBox }}'
+  '{{ viewBox }}'{{#if isStroke}},
+  true{{/if}}
 )
 
 

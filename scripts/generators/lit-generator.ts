@@ -17,6 +17,7 @@ export class LitGenerator extends BaseGenerator {
       paths: svg.paths,
       viewBox: svg.viewBox,
       isMultiPath: svg.paths.length > 1,
+      isStroke: svg.isStroke,
     })
 
     const outputPath = join(this.outputDir, 'icons', `${svg.componentName}.ts`)
@@ -27,12 +28,21 @@ export class LitGenerator extends BaseGenerator {
    * 生成 Lit 索引文件
    */
   generateIndex(svgs: ParsedSvg[], metadatas: IconMetadata[]): void {
+    // 去重：使用 componentName 作为 key
+    const uniqueIcons = new Map<string, { componentName: string; fileName: string; tagName: string }>()
+
+    svgs.forEach(svg => {
+      if (!uniqueIcons.has(svg.componentName)) {
+        uniqueIcons.set(svg.componentName, {
+          componentName: svg.componentName,
+          fileName: svg.componentName,
+          tagName: `ld-icon-${svg.name}`,
+        })
+      }
+    })
+
     const code = this.renderTemplate('lit-index.hbs', {
-      icons: svgs.map(svg => ({
-        componentName: svg.componentName,
-        fileName: svg.componentName,
-        tagName: `ld-icon-${svg.name}`,
-      })),
+      icons: Array.from(uniqueIcons.values()),
     })
 
     this.writeFile(join(this.outputDir, 'index.ts'), code)

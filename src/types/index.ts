@@ -67,6 +67,12 @@ export interface IconDefinition {
    * 图标标签（用于搜索）
    */
   tags?: string[]
+
+  /**
+   * 是否为描边类型图标
+   * @default false
+   */
+  isStroke?: boolean
 }
 
 /**

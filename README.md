@@ -8,15 +8,18 @@
 
 ## ✨ 特性
 
-- 🎨 **18+ 核心图标** - 精心设计的 SVG 图标（持续扩展中）
+- 🎨 **347+ 精美图标** - 基于 Lucide Icons 的高质量 SVG 图标库
 - 📦 **多框架支持** - React、Vue 3、Lit (Web Components)
 - 🔥 **按需导入** - Tree-shaking 友好，只打包使用的图标
 - 🎯 **TypeScript** - 完整的类型定义和智能提示
+- 🎨 **描边宽度控制** - 支持动态调整 strokeWidth
 - ⚡ **图标字体** - 自动生成 TTF/WOFF/WOFF2 字体文件
-- 🔍 **图标搜索** - 内置图标预览和搜索工具
+- 🔍 **交互式预览** - 精美的图标预览和搜索工具
 - 🎭 **自定义图标** - 轻松添加和管理自定义图标
 - 💼 **零运行时依赖** - 核心包无外部运行时依赖
 - 🛠️ **自动化构建** - SVG 自动转换为各框架组件
+- 🌗 **深色模式** - 内置深色模式支持
+- 📱 **响应式** - 完美适配各种屏幕尺寸
 
 ## 📦 安装
 
@@ -138,32 +141,39 @@ interface ReactIconProps extends IconProps, Omit<SVGAttributes<SVGElement>, 'col
 
 ## 🎨 图标分类
 
-### 通用图标
-- `HomeIcon` - 主页
-- `SearchIcon` - 搜索
-- `SettingsIcon` - 设置
-- `UserIcon` - 用户
-- `MenuIcon` - 菜单
+我们提供 **347+ 图标**，分为 **10 个分类**：
 
-### 文件图标
-- `FileIcon` - 文件
-- `FolderIcon` - 文件夹
-- `DownloadIcon` - 下载
-- `UploadIcon` - 上传
+### 🏠 通用 (42 icons)
+`HomeIcon`, `SearchIcon`, `SettingsIcon`, `UserIcon`, `MenuIcon`, `StarIcon`, `HeartIcon`, `BookmarkIcon`...
 
-### 编辑图标
-- `EditIcon` - 编辑
-- `DeleteIcon` - 删除
-- `SaveIcon` - 保存
-- `CopyIcon` - 复制
+### ✏️ 编辑 (23 icons)
+`EditIcon`, `DeleteIcon`, `SaveIcon`, `CopyIcon`, `ClipboardIcon`, `ScissorsIcon`, `PaletteIcon`...
 
-### 媒体图标
-- `PlayIcon` - 播放
-- `PauseIcon` - 暂停
-- `ImageIcon` - 图片
-- `VideoIcon` - 视频
+### 🧭 导航 (47 icons)
+`ArrowUpIcon`, `ChevronDownIcon`, `MapPinIcon`, `CompassIcon`, `ZoomInIcon`, `MaximizeIcon`...
 
-查看完整图标列表：[图标库](https://ldesign.dev/icons)
+### 🎵 媒体 (35 icons)
+`PlayIcon`, `PauseIcon`, `MusicIcon`, `VolumeIcon`, `CameraIcon`, `ImageIcon`, `VideoIcon`...
+
+### ✅ 状态 (46 icons)
+`CheckIcon`, `CloseIcon`, `LoadingIcon`, `DownloadIcon`, `UploadIcon`, `WifiIcon`, `BatteryIcon`...
+
+### 📄 文件 (36 icons)
+`FileIcon`, `FolderIcon`, `FileTextIcon`, `ArchiveIcon`, `PackageIcon`, `InboxIcon`...
+
+### 💬 通讯 (33 icons)
+`MailIcon`, `MessageIcon`, `PhoneIcon`, `BellIcon`, `ShareIcon`, `SendIcon`...
+
+### 💼 商务 (30 icons)
+`BriefcaseIcon`, `CalendarIcon`, `TrendingUpIcon`, `BarChartIcon`, `CreditCardIcon`...
+
+### 🌤️ 天气 (23 icons)
+`SunIcon`, `MoonIcon`, `CloudIcon`, `RainIcon`, `SnowflakeIcon`, `ThermometerIcon`...
+
+### 💻 设备 (32 icons)
+`SmartphoneIcon`, `LaptopIcon`, `MonitorIcon`, `PrinterIcon`, `KeyboardIcon`, `CpuIcon`...
+
+📚 查看完整图标列表：[ICONS_CATALOG.md](./ICONS_CATALOG.md)
 
 ## 🔧 高级用法
 
@@ -296,9 +306,41 @@ packages/icons/
 
 ## 📚 文档
 
-- [使用指南](./docs/USAGE.md) - 详细的 API 和使用示例
-- [开发指南](./docs/DEVELOPMENT.md) - 贡献和扩展指南
-- [项目计划](./PROJECT_PLAN.md) - 完整的项目规划
+- [📖 图标目录](./ICONS_CATALOG.md) - 完整的图标列表和分类
+- [🔄 迁移指南](./MIGRATION_GUIDE.md) - 从其他图标库迁移
+- [🎨 自定义指南](./CUSTOMIZATION.md) - 添加和管理自定义图标
+- [💡 使用指南](./docs/USAGE.md) - 详细的 API 和使用示例
+- [🛠️ 开发指南](./docs/DEVELOPMENT.md) - 贡献和扩展指南
+
+## 🎮 交互式演示
+
+体验完整功能的交互式图标预览器：
+
+```bash
+cd packages/icons/examples/vue-demo
+npm install
+npm run dev
+```
+
+功能亮点：
+- ✨ 347+ 图标实时预览
+- 🎨 strokeWidth 动态调整
+- 🌗 深色/浅色主题切换
+- 📋 一键复制代码
+- 📥 批量下载图标
+- 🔍 智能搜索和过滤
+- 📱 网格/列表视图切换
+
+## 🌟 新增功能 (v0.1.0)
+
+- ✅ 集成 347+ Lucide Icons
+- ✅ strokeWidth 属性完整支持
+- ✅ 自动 stroke/fill 图标检测
+- ✅ Vue/React/Lit 完整示例应用
+- ✅ 深色模式支持
+- ✅ 交互式图标预览器
+- ✅ 批量操作和下载
+- ✅ 完整文档（目录、迁移、自定义）
 
 ## 📄 许可证
 
