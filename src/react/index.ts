@@ -1,4 +1,5 @@
 export { IconBase, createReactIcon, type ReactIconProps } from './IconBase'
+export { IconErrorBoundary, withIconErrorBoundary, type IconErrorBoundaryProps } from './ErrorBoundary'
 export type { IconProps } from '../types'
 import './style.css'
 

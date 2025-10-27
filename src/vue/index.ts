@@ -1,4 +1,5 @@
 export { IconBase, createVueIcon } from './IconBase'
+export { IconErrorBoundary, withIconErrorBoundary } from './ErrorBoundary'
 export type { IconProps } from '../types'
 import './style.css'
 
