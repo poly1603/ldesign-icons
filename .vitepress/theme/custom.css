@@ -1,0 +1,152 @@
+/**
+ * 自定义样式
+ */
+
+:root {
+  --vp-c-brand: #3b82f6;
+  --vp-c-brand-light: #60a5fa;
+  --vp-c-brand-lighter: #93c5fd;
+  --vp-c-brand-dark: #2563eb;
+  --vp-c-brand-darker: #1d4ed8;
+}
+
+/* 图标展示网格 */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.icon-item:hover {
+  border-color: var(--vp-c-brand);
+  background-color: var(--vp-c-bg-soft);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.icon-item svg {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 0.5rem;
+}
+
+.icon-item .icon-name {
+  font-size: 12px;
+  color: var(--vp-c-text-2);
+  text-align: center;
+  word-break: break-word;
+}
+
+/* 代码演示容器 */
+.demo-container {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.demo-preview {
+  padding: 2rem;
+  background-color: var(--vp-c-bg-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.demo-code {
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* 属性表格增强 */
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* 特性列表 */
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.feature-item {
+  padding: 1.5rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background-color: var(--vp-c-bg-soft);
+}
+
+.feature-item h3 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.feature-item p {
+  margin-bottom: 0;
+  color: var(--vp-c-text-2);
+}
+
+/* Badge 样式 */
+.custom-badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.custom-badge.required {
+  background-color: #ef4444;
+  color: white;
+}
+
+.custom-badge.optional {
+  background-color: #10b981;
+  color: white;
+}
+
+.custom-badge.new {
+  background-color: #3b82f6;
+  color: white;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .icon-grid {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .icon-item {
+    padding: 0.75rem;
+  }
+
+  .icon-item svg {
+    width: 24px;
+    height: 24px;
+  }
+}
