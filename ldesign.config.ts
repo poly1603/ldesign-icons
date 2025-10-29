@@ -11,7 +11,7 @@ export default defineConfig({
   // 输出配置
   output: {
     // 输出格式：ESM (现代浏览器/打包工具), CJS (Node.js), UMD (浏览器直接引用)
-    format: ['esm', 'cjs', 'umd'],
+    format: ['esm', 'cjs', ],
 
     // ESM 输出配置
     esm: {
@@ -27,6 +27,7 @@ export default defineConfig({
 
     // UMD 输出配置（用于 CDN 和浏览器直接引用）
     umd: {
+      enabled: false,
       dir: 'dist',
       name: 'LDesignIcons', // 全局变量名
     },
