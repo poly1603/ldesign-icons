@@ -111,7 +111,6 @@
     "test:coverage": "vitest run --coverage",
     "test:performance": "vitest run __tests__/performance/benchmark.spec.ts",
     "clean": "rimraf es lib dist fonts coverage src/vue/icons src/react/icons src/lit/icons src/metadata.json",
-    "prepublishOnly": "pnpm run clean && pnpm run generate && pnpm run build",
     "svg:optimize": "tsx scripts/optimize-svgs.ts",
     "generate": "tsx scripts/generate-all.ts",
     "generate:vue": "tsx scripts/generators/vue-generator.ts",
